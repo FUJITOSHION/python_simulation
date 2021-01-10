@@ -3,5 +3,5 @@
 ### 2分法(busection method)
 busection methodでは解の存在範囲の上限と下限を調べる。
 ```math
-f(x)=x^2 -2
+f(x)=x^{2}-2
 ```
