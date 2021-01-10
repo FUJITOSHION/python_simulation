@@ -3,11 +3,15 @@
 ### 2分法(busection method)
 busection methodでは解の存在範囲の上限と下限を調べる。
 ```math
-\begin{align*}
-  f(x)=x^{2}-2
-\end{align*}
+  f(x)=x^2-2
 ```
+f(p)>0となるp、f(n)<0となるnを求めて、
+(p+n)/2を求めて、f((p+n)/2)>0の場合pを上限とする。
+
+### 数値計算における誤差
+- 桁落ち
 ```math
-x_{n+1} = rx_n(1-x_n)
+sqrt(x+1) - sart(x)
 ```
-![\begin{align*} f(x)=x^{2}-2 \end{align*}]
+- 丸め誤差
+10進数の0.1は、2進数に変換する際に丸により、0.1よりわずかに大き値になるため。
